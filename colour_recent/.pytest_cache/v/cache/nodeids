@@ -1,0 +1,5 @@
+[
+  "colour/plotting/tests/test_geometry.py::TestQuad::test_quad",
+  "colour/plotting/tests/test_geometry.py::TestGrid::test_grid",
+  "colour/plotting/tests/test_geometry.py::TestCube::test_cube"
+]

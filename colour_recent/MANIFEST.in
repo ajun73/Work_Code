@@ -1,0 +1,14 @@
+include LICENSE
+include *.bib
+include *.rst
+include docs/_build/latex/Colour.pdf
+graft colour/appearance/tests/fixtures
+graft colour/examples
+graft colour/io
+graft colour/plotting
+graft docs/_build/html
+graft docs/_build/doctrees
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude ._*
+global-exclude .DS_Store
