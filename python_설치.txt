@@ -1,0 +1,21 @@
+anaconda 64bit windows 설치 (옵션 x)
+
+conda update -n base conda
+    콘다 패키지 업데이트
+conda update --all
+    전체 파이선 패키지 업데이트
+    
+conda create -n pycharm_env python=3.7
+conda activate pycharm_env
+conda deactivate
+conda remove --name pycharm_env --all
+conda info -e
+
+pip install pyqt5
+pip install pyqt5-tools
+designer
+    D:\work\Anaconda3\Lib\site-packages\pyqt5_tools\Qt\bin\designer.exe
+    D:\work\Anaconda3\envs\pycharm_env\Lib\site-packages\pyqt5_tools\Qt\bin\designer.exe
+
+pycharm Community 버전 설치 (옵션 o)
+    https://www.jetbrains.com/ko-kr/
