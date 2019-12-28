@@ -21,3 +21,14 @@ pycharm Community 버전 설치 (옵션 o)
     https://www.jetbrains.com/ko-kr/
 
 pip install 패키지이름==버전
+
+주피터 노트북 설정
+https://wonderbout.tistory.com/50 참고
+아나콘다 프롬프트에서
+jupyter notebook --generate-config
+C:\Users\ajun7\.jupyter\jupyter_notebook_config.py 편집
+c.NotebookApp.notebook_dir = 'E:\work\Jupyter'
+
+주피터 테마 설치
+https://opentutorials.org/module/2957/17787
+
